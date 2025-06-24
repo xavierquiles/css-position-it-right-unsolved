@@ -64,7 +64,7 @@ color: #e2e2e2;
 
 footer {
   display: flex;
-  align-items: center;
+  justify-content: center;
   width: 100%;
   background-color: #e2e2e2;
   padding: 0 30px;
@@ -94,6 +94,7 @@ footer {
 }
 
 .agree-btn:disabled {
-  background-color: darkviolet;
+  background-color:gray;
+  color: black;
   cursor: not-allowed;
 }
